@@ -50,3 +50,8 @@ html, .beige {
     list-style-position: outside;
     list-style-image: none;
   }
+
+  .img2 {
+    height: auto;
+    width: 400px;
+  }
