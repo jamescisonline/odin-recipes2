@@ -23,6 +23,7 @@ html, .beige {
 p, h1, .text01 {
   font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(150, 113, 18);
+  padding-left: 20px;
 }
 
   a {
@@ -69,6 +70,7 @@ a:active {
     position: relative;
     width: 50%;
     /* outline: 2px solid orange; */
+    margin: 20px;
   }
   
   .image {
