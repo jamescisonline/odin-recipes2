@@ -1,4 +1,8 @@
 
+/* * {
+  outline: 2px solid red;
+} */
+
 html, .beige {
     background-color: beige;
   }
@@ -64,15 +68,17 @@ a:active {
   .container {
     position: relative;
     width: 50%;
+    /* outline: 2px solid orange; */
   }
   
   .image {
     opacity: 1;
     display: block;
-    width: 250px;
+    width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    /* outline: 2px solid purple; */
   }
   
   .middle {
