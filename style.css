@@ -9,9 +9,38 @@ html, .beige {
     font-weight: bold;
 }
 
-.button1 {
-
+p, h1, .text01 {
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(150, 113, 18);
 }
+
+  a {
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: rgb(150, 113, 18);
+  
+
+ }
+
+ a:link { 
+  text-decoration: none; 
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+  text-decoration-line: underline overline;
+  text-decoration-style: dotted;
+} 
+a:active { 
+  text-decoration: none; 
+  text-decoration-line: underline overline;
+  text-decoration-style: solid;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -40,10 +69,7 @@ html, .beige {
 
 
 
-  p, .text01 {
-    font-family: Georgia, Verdana, monospace;
-    color: #9c330c;
-  }
+
 
   ul {
     list-style-type: circle;
@@ -54,4 +80,44 @@ html, .beige {
   .img2 {
     height: auto;
     width: 400px;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 400px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: beige;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
   }
