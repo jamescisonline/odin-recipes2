@@ -25,7 +25,6 @@ p, h1, .text01 {
   font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: rgb(150, 113, 18);
-  
 
  }
 
@@ -48,25 +47,7 @@ a:active {
   text-decoration-style: solid;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding: 6px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border: 1px solid;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
   
   .desc {
     padding: 15px;
@@ -74,15 +55,6 @@ a:active {
     font-weight: bolder;
   }
 
-
-
-
-
-  ul {
-    list-style-type: circle;
-    list-style-position: outside;
-    list-style-image: none;
-  }
 
   .img2 {
     height: auto;
@@ -97,7 +69,7 @@ a:active {
   .image {
     opacity: 1;
     display: block;
-    width: 400px;
+    width: 250px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
