@@ -3,6 +3,11 @@
   outline: 2px solid red;
 } */
 
+/* box elements to center on page */
+.centerbox {
+  margin: auto;
+}
+
 html, .beige {
     background-color: beige;
   }
@@ -69,8 +74,12 @@ a:active {
   .container {
     position: relative;
     width: 50%;
+    /* margin auto centers this box */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
     /* outline: 2px solid orange; */
-    margin: 20px;
   }
   
   .image {
